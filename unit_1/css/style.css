@@ -1,11 +1,113 @@
 body {
-    background-color: Linen;
+    background-color: White;
     color: white;
+    text-align: center;
 }
 
 h1 {
-    color: DarkCyan;
+    color: white;
+    font-family: "nevis", sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute; 
+   	top: 250px; 
+   	left: 0; 
+   	width: 100%; 
 }
-p {
+
+h2 {
+    color: white;
+    font-family: "proxima nova", sans-serif;
+    font-size: 21px;
+    font-weight: lighter;
+    font-style: italic;
+    position: absolute; 
+   	top: 360px; 
+   	left: 0; 
+   	width: 100%; 
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+}
+
+h3 {
     color: SkyBlue;
+    font-family: "proxima nova", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 0;
+    padding-top: 50px;
+    padding-right: 180px;
+    padding-bottom: 10px;
+    padding-left: 180px;
+}
+
+.important {
+	font-size: 16px;
+	font-style: italic;
+}
+
+h4{
+	color: #e44d98;
+	font-family: "aleo", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: -.5px;
+    line-height: 0;
+}
+hr{
+	width: 50px;
+	line-height: .2;
+}
+
+p {
+    color: black;
+    line-height: 2;
+    font-family: "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-right: 180px;
+    padding-bottom: 50px;
+    padding-left: 180px;
+}
+a {
+	color: black;
+	font-family: "proxima nova", sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+div {
+	width: 420px;
+	height: 220px;
+	border: 0px solid black;
+	display: inline-block;
+	margin: 5px;
+	line-height: 10;
+
+}
+#name {
+	background: LightSkyBlue;
+}
+
+#hex {
+	background: #87CEFA;
+}
+
+#rgb {
+	background: rgba(135,206,250,.5);
+}
+img {
+    width: 100%;
+    height: auto;
 }
