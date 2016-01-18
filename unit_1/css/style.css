@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Sanchez:400italic,400);
+
 body {
     background-color: White;
     color: white;
@@ -22,7 +24,7 @@ h2 {
     font-family: "proxima nova", sans-serif;
     font-size: 21px;
     font-weight: lighter;
-    font-style: italic;
+    font-style: itali;
     position: absolute; 
    	top: 360px; 
    	left: 0; 
@@ -37,14 +39,14 @@ h2 {
 h3 {
     color: SkyBlue;
     font-family: "proxima nova", sans-serif;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
     line-height: 0;
     padding-top: 50px;
     padding-right: 180px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-left: 180px;
 }
 
@@ -55,13 +57,14 @@ h3 {
 
 h4{
 	color: #e44d98;
-	font-family: "aleo", sans-serif;
-    font-size: 14px;
+	font-family: 'Sanchez', serif;
+    font-size: 18px;
     font-weight: lighter;
     font-style: italic;
     text-transform: none;
     letter-spacing: -.5px;
     line-height: 0;
+    margin-bottom: 1em;
 }
 hr{
 	width: 50px;
@@ -70,14 +73,11 @@ hr{
 
 p {
     color: black;
-    line-height: 2;
     font-family: "proxima nova", sans-serif;
     font-size: 16px;
     font-weight: normal;
-    padding-top: 10px;
-    padding-right: 180px;
-    padding-bottom: 50px;
-    padding-left: 180px;
+    line-height: 2em;
+    margin: 30px;
 }
 a {
 	color: black;
@@ -105,7 +105,7 @@ div {
 }
 
 #rgb {
-	background: rgba(135,206,250,.5);
+	background: #87CEFA;
 }
 img {
     width: 100%;
