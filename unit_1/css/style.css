@@ -37,9 +37,10 @@ h2 {
 }
 
 h3 {
-    color: SkyBlue;
+    color: black;
     font-family: "proxima nova", sans-serif;
-    font-size: 38px;
+    font-size: 1.5em;
+    padding: .8em 0;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -66,6 +67,7 @@ h4{
     line-height: 0;
     margin-bottom: 1em;
 }
+
 hr{
 	width: 50px;
 	line-height: .2;
@@ -87,15 +89,7 @@ a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-div {
-	width: 420px;
-	height: 220px;
-	border: 0px solid black;
-	display: inline-block;
-	margin: 5px;
-	line-height: 10;
 
-}
 #name {
 	background: LightSkyBlue;
 }
@@ -110,4 +104,55 @@ div {
 img {
     width: 100%;
     height: auto;
+}
+
+nav {
+    background-color: black;
+    font-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer {
+    color: #000;
+    font-size: 16px;
+    font-weight: 570;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 15px 10px 0 0;
+}
+
+header {
+    background: #000;
+    border-bottom: 2px 
+    solid #fff;
+}
+
+#logo-img {
+    height: 18px;
+    width: 100px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav {
+    background: #000;
+    margin: 0px 0px 0 0;
+    padding: 0em;
+}
+
+.nav-li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    list-style: none;
+    display: inline-block;
 }
