@@ -105,6 +105,7 @@ a {
 	font-weight: 200;
     font-variant: underline 0;
 	text-transform: uppercase;
+    text-decoration: none;
 	letter-spacing: 2px;
     padding: 1px;
 }
